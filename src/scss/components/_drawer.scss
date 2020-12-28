@@ -1,0 +1,41 @@
+#app-drawer {
+  width: 20%;
+
+  .mdc{
+    &-drawer__header{
+      min-height: 35px;
+      padding-left: 1.1rem;
+    }
+
+    &-layout{
+      padding-left: .85rem;
+      height: 2rem;
+    }
+
+    &-typography {
+      padding-left: 0.3rem;
+    }
+
+    &-text-field{
+      width: 100%;
+      margin-top: 1rem;
+
+      span{
+        padding-left: 1rem;
+      }
+    }
+
+    &-list{
+      &-item{
+        height: 3rem;
+      }
+    }
+
+    &-button{
+      margin-top: 1rem;
+      width: 98%;
+    }
+
+  }
+
+}

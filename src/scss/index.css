@@ -1,0 +1,96 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.app #app-content {
+  width: 100%;
+}
+
+#app-content {
+  background-color: #f2f2f2;
+}
+
+.todo-form {
+  background-color: white;
+  margin-top: 2px;
+}
+.todo-form .mdc-list {
+  padding: 0;
+}
+.todo-form label {
+  width: 100%;
+  padding: 0;
+}
+
+.todo-list-item {
+  background-color: white;
+  margin-top: 2px;
+}
+.todo-list-item .mdc-list-item__graphic {
+  width: 18px;
+  height: 18px;
+  margin-right: 1rem;
+}
+.todo-list-item .mdc-list-item__text {
+  flex: 1;
+}
+
+#list-page {
+  max-width: 100%;
+  display: flex;
+}
+#list-page .mdc-layout {
+  flex: 1;
+  padding: 1rem;
+  margin-top: 4px;
+}
+#list-page .mdc-side-sheet {
+  top: 64px;
+  padding: 1rem;
+}
+#list-page .todo-list {
+  margin: 1rem 1rem 0.25rem;
+}
+#list-page .todo-form {
+  margin: 0.25rem 1rem 1rem;
+}
+
+.todo-list .todo-list__title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.todo-details {
+  flex-basis: 256px;
+}
+.todo-details .mdc-layout {
+  display: flex;
+  justify-content: space-between;
+}
+.todo-details .todo-steps {
+  margin: 1rem 0;
+}
+.todo-details .todo-steps .todo-step-list .mdc-list-item {
+  padding: 0;
+}
+.todo-details .todo-steps .todo-step-list .mdc-list-item .mdc-checkbox {
+  margin-right: 0.5rem;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=index.css.map */

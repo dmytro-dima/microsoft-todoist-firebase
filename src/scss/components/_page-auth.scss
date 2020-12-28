@@ -1,0 +1,36 @@
+#login-page {
+  margin: auto;
+
+  #error-text{
+    font-size: 1rem;
+  }
+
+
+  .MuiFormControl-root {
+    margin: 0 0 1rem 0;
+  }
+
+  .mdc{
+
+    &-button{
+      width: 50%;
+    }
+
+    &-typography{
+      text-align: center;
+      font-size: 3rem;
+    }
+
+    &-list-item__text{
+      margin-top: 0.5rem;
+    }
+
+
+    &-card__actions{
+      display: flex;
+      justify-content: space-around;
+    }
+
+  }
+
+}

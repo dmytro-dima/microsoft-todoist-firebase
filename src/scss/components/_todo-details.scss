@@ -1,0 +1,21 @@
+.todo-details{
+  flex-basis: 256px;
+
+  .mdc-layout{
+    display: flex;
+    justify-content: space-between;
+  }
+    .todo-steps {
+      margin: 1rem 0;
+
+      .todo-step-list {
+        .mdc-list-item {
+          padding: 0;
+
+          .mdc-checkbox {
+            margin-right: .5rem;
+          }
+        }
+      }
+    }
+}

@@ -1,0 +1,23 @@
+@import 'components/app';
+@import 'components/app-content';
+@import 'components/form';
+@import 'components/list-item';
+@import 'components/pages';
+@import 'components/todo-list';
+@import 'components/todo-details';
+
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+}

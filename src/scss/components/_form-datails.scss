@@ -1,0 +1,50 @@
+#form-note{
+  margin-top: .5rem;
+
+  .mdc-layout{
+    justify-content: space-between;
+  }
+
+  .mdc-button{
+    padding: 0;
+    height: 3rem;
+    font-size: 0.8rem;
+
+    span{
+      line-height: 3rem;
+    }
+  }
+
+  textarea{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    height: 5rem;
+  }
+}
+
+.todo-steps {
+  .mdc-list-item{
+    height: 3rem;
+
+    span{
+      line-height: 3rem;
+    }
+
+    .mdc-list-item__text{
+      padding-top: 1rem;
+    }
+
+    .mdc-list{
+      margin-bottom: .3rem;
+    }
+  }
+
+  .mdc-layout{
+    padding: 0 .3rem;
+
+    .mdc-button{
+      height: 3rem;
+    }
+  }
+
+}

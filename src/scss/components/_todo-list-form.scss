@@ -1,0 +1,30 @@
+#todo-form {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: white;
+  margin-top: 2px;
+
+  .mdc {
+
+    &-list {
+      padding: 0;
+    }
+
+    &-text-field{
+      span{
+        padding-left: 1rem;
+      }
+
+    }
+
+  }
+
+}
+
+#todo-form__btn{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
